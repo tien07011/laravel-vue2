@@ -7,13 +7,13 @@ import App from './App.vue';
 
 Vue.use(VueRouter);
 Vue.use(VueAxios, axios);
-import HomeComponent from "./components/HomeComponent.vue";
+import Login from "./pages/Login.vue";
 
 const routes = [
     {
-        name: 'HomeComponent',
+        name: 'Login',
         path: '/',
-        component: HomeComponent
+        component: Login
     },
 ];
 const router = new VueRouter({
